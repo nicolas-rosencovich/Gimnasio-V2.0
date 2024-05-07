@@ -145,6 +145,11 @@
     cursor: pointer;
     margin-left: 3%;
 }
+.main-btn:hover {
+
+  background-color:rgba(134, 22, 22, 0.788) !important;
+
+}
 
 .aside-container{
     display:table-column;
@@ -375,4 +380,11 @@ form button {
   cursor: pointer;    
   font-size: 20px;
   border-radius: 10px;
+}
+
+
+form button:hover {
+
+    background: linear-gradient(to left,  rgb(50, 12, 12),rgb(188, 48, 48));
+        
 }
